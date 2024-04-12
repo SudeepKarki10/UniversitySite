@@ -23,7 +23,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Message Sent Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -35,7 +35,7 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-col">
         <h3>
-          Send us a message <img src={msg_icon} />
+          Send us a message <img src={msg_icon} alt="" />
         </h3>
         <p>
           Need assistance or have a question? We're here to help! Our dedicated

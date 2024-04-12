@@ -22,3 +22,52 @@ nav ul li {
   margin: 5px 20px;
   font-size: 20px;
 }
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 130px;
+  }
+  nav ul li {
+    margin: 15px 10px;
+  }
+
+  .btn {
+    width: 140px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  nav {
+    padding: 15px 0px;
+    height: 60px;
+  }
+
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #4d57b7;
+    padding-top: 70px;
+    transition: 0.5s;
+    z-index: -1;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 20px 40px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .hide-mobile-menu {
+    right: -200px;
+  }
+}

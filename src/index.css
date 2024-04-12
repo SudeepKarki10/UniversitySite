@@ -59,3 +59,23 @@ a {
   background: #212ea0;
   color: #fff;
 }
+
+.menu-icon {
+  display: none;
+  width: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .btn {
+    padding: 14px 22px;
+  }
+}
