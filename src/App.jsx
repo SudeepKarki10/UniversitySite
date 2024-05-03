@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Title from "./Components/Title/Title";
 import Program from "./Components/Programs/Program";
+import About from "./Components/Aboutus/About";
 import Campus from "./Components/Campus/Campus";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
@@ -15,6 +16,7 @@ const App = () => {
       <Hero />
       <Title title="OUR PROGRAMS" subtitle="What We Offer" />
       <Program />
+      <About />
       <Title title="GALLERY" subtitle="Campus Photos" />
       <Campus />
       <Title title="TESTIMONIALS" subtitle="What Student Says" />
