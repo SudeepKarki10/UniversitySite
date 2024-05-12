@@ -15,9 +15,7 @@
   color: #000f38;
   font-weight: 500;
   font-size: 25px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+
   margin-bottom: 20px;
 }
 
@@ -66,4 +64,57 @@ form {
   margin-left: 10px;
   font-size: 16px;
   display: block;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    flex-direction: column;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    /* Remove justify-content: flex-start; */
+  }
+
+  .contact-form {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+  }
+
+  .contact-info,
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 10;
+  }
+
+  .contact form label {
+    font-size: 25px;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    display: block;
+    width: 30rem;
+    background: #ebecfe;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .contact-col button {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .contact-col span {
+    margin-left: 10px;
+    font-size: 16px;
+    display: block;
+  }
 }

@@ -55,7 +55,7 @@ const Contact = () => {
           </li>
         </ul>
       </div>
-      <div className="contact-col">
+      <div className="contact-col contact-form">
         <form onSubmit={onSubmit}>
           <label>Your Name</label>
           <input type="text" name="name" placeholder="Enter your name"></input>
